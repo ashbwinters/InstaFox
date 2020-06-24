@@ -1,24 +1,9 @@
-# README
+For this exercise, you will want to db migrate and seed. There are 4 foxes in the db so just pick a number(1-4) and add that to your GET url. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The image of the fox should show up on the page, any comments should show up, if it has any likes, they should show up too.
 
-Things you may want to cover:
+If you click the like button, it should increase the likes number on the page and that change should persist. 
 
-* Ruby version
+You should be able to add a comment that optimistically renders and persists.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bonus if you can delete the optimistic comment!
